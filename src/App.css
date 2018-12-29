@@ -1,32 +1,66 @@
-.App {
+.container{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 2fr 100px ;
+  justify-items: center;
+}
+.container-items{
+  border-style: solid;
+  margin-top: 50px;
+  justify-content: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(10,110px);
+  grid-template-rows: repeat(10,50px);;
+}
+
+.item{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.course-button {
+  align-self: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.course-button .false{
+  background: rgb(255, 95, 95);
+  border-color:black;
+  font-size: 1em;
+  color:black;
 }
 
-.App-link {
-  color: #61dafb;
+.course-button .true{
+  background: rgb(65, 255, 65);
+  border-color:black;
+  font-size: 1em;
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.calculate-button{
+  margin-top:50px;
+}
+
+@media screen and (max-width: 1110px){
+  .container-items{
+    grid-template-columns: repeat(10,50px);
+    grid-template-rows: repeat(10,25px);;
   }
-  to {
-    transform: rotate(360deg);
+  .course-button .false{
+    font-size: 0.5em;
+  }
+  .course-button .true{
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 518px){
+  .container-items{
+    grid-template-columns: repeat(10,40px);
+    grid-template-rows: repeat(10,20px);;
+  }
+  .course-button .false{
+    font-size: 0.4em;
+  }
+  .course-button .true{
+    font-size: 0.4em;
   }
 }

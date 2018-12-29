@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classname": "0.0.0",
+    "classnames": "^2.2.6",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.0.0-beta.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
