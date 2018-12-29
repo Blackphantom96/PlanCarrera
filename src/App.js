@@ -101,7 +101,7 @@ class App extends Component {
         </div>
         <div className="container">
           <div className="container-items" >{list}</div>
-          <h1>{"Creditos: "+labelCreds}</h1>
+          {!this.state.mode?<h1>{"Creditos: "+labelCreds}</h1>:""}
           <div><Button label={label}  onClick={this.handleClick2}/></div>
           {!this.state.mode? <div><Button label="Agregar" style={{marginTop:10}} onClick={this.handleClick3}/></div>:""}
           <div className="container-semest">
