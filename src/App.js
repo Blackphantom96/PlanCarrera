@@ -84,7 +84,7 @@ class App extends Component {
 
   render() {
    var list = llenar(this.state,true,this.handleClick)
-   let label =this.state.mode?"Modo Vistas":"Modo Por ver";
+   let label =this.state.mode?"Modo agregar materias vistas":"Modo planear semestre";
    let labelCreds = 0
    this.state.courses.forEach(element => {
      if(element.state>1){
@@ -95,15 +95,15 @@ class App extends Component {
       <div>
         <div style={{textAlign:"center"}}>
           <h1>Instrucciones:</h1>
-          <h3>1) Seleccionar las materias que ya aprovo</h3>
+          <h3>1) Seleccionar las materias que aprobo</h3>
           <h3>2) Cambie el modo con el boton Modo </h3>
-          <h3>3) Selecciona las materias que va a ver en el semestre, cuando termine pulse agregar</h3>
+          <h3>3) Seleccione las materias que va a ver en los semestres, cuando termine pulse agregar</h3>
         </div>
         <div className="container">
           <div className="container-items" >{list}</div>
           {!this.state.mode?<h1>{"Creditos: "+labelCreds}</h1>:""}
           <div><Button label={label}  onClick={this.handleClick2}/></div>
-          {!this.state.mode? <div><Button label="Agregar" style={{marginTop:10}} onClick={this.handleClick3}/></div>:""}
+          {!this.state.mode? <div><Button label="Agregar semestre" style={{marginTop:10}} onClick={this.handleClick3}/></div>:""}
           <div className="container-semest">
             {this.state.semest}
           </div>
