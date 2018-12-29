@@ -6,7 +6,8 @@ export const sistemas = {
     "nemo": "AGEO",
     "credits": 4,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 0,
@@ -14,7 +15,8 @@ export const sistemas = {
     "nemo": "PREM",
     "credits": 4,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 0,
@@ -22,7 +24,8 @@ export const sistemas = {
     "nemo": "FCO1",
     "credits": 2,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 0,
@@ -30,7 +33,8 @@ export const sistemas = {
     "nemo": "FUME",
     "credits": 3,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -38,7 +42,8 @@ export const sistemas = {
     "nemo": "CALD",
     "credits": 4,
     "preReq": ["PREM"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -46,7 +51,8 @@ export const sistemas = {
     "nemo": "MMIN",
     "credits": 3,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -54,7 +60,8 @@ export const sistemas = {
     "nemo": "ALLI",
     "credits": 3,
     "preReq": ["AGEO", "PREM"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 0,
@@ -62,7 +69,8 @@ export const sistemas = {
     "nemo": "ELBA",
     "credits": 1,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 0,
@@ -70,7 +78,8 @@ export const sistemas = {
     "nemo": "INSI",
     "credits": 1,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -78,7 +87,8 @@ export const sistemas = {
     "nemo": "FCO2",
     "credits": 2,
     "preReq": ["FCO1"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 2,
@@ -86,7 +96,8 @@ export const sistemas = {
     "nemo": "CALI",
     "credits": 4,
     "preReq": ["CALD"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 2,
@@ -94,7 +105,8 @@ export const sistemas = {
     "nemo": "LCAT",
     "credits": 4,
     "preReq": ["MMIN"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -102,7 +114,8 @@ export const sistemas = {
     "nemo": "FIME",
     "credits": 4,
     "preReq": ["FUME"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 2,
@@ -110,7 +123,8 @@ export const sistemas = {
     "nemo": "AYPR",
     "credits": 3,
     "preReq": ["ALLI"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 2,
@@ -118,7 +132,8 @@ export const sistemas = {
     "nemo": "EGR1",
     "credits": 3,
     "preReq": ["AGEO"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 3,
@@ -126,7 +141,8 @@ export const sistemas = {
     "nemo": "MATD",
     "credits": 4,
     "preReq": ["LCAT"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 2,
@@ -134,7 +150,8 @@ export const sistemas = {
     "nemo": "FIEM",
     "credits": 4,
     "preReq": ["FIME", "CALD"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 3,
@@ -142,7 +159,8 @@ export const sistemas = {
     "nemo": "CALV",
     "credits": 4,
     "preReq": ["ALLI", "CALI"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 4,
@@ -150,7 +168,8 @@ export const sistemas = {
     "nemo": "MBDA",
     "credits": 4,
     "preReq": ["AYPR", "LCAT"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 3,
@@ -158,7 +177,8 @@ export const sistemas = {
     "nemo": "AYED",
     "credits": 4,
     "preReq": ["AYPR", "LCAT"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 6,
@@ -166,7 +186,8 @@ export const sistemas = {
     "nemo": "ELH1",
     "credits": 2,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 4,
@@ -174,7 +195,8 @@ export const sistemas = {
     "nemo": "TPRO",
     "credits": 3,
     "preReq": ["MATD"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 3,
@@ -182,7 +204,8 @@ export const sistemas = {
     "nemo": "CNYT",
     "credits": 3,
     "preReq": ["FIME"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 4,
@@ -190,7 +213,8 @@ export const sistemas = {
     "nemo": "ECDI",
     "credits": 3,
     "preReq": ["CALV"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 4,
@@ -198,7 +222,8 @@ export const sistemas = {
     "nemo": "POOB",
     "credits": 4,
     "preReq": ["AYED"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 5,
@@ -206,7 +231,8 @@ export const sistemas = {
     "nemo": "PRYE",
     "credits": 4,
     "preReq": ["CALI"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 5,
@@ -214,7 +240,8 @@ export const sistemas = {
     "nemo": "ACSO",
     "credits": 4,
     "preReq": ["FIEM"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 6,
@@ -222,7 +249,8 @@ export const sistemas = {
     "nemo": "RECO",
     "credits": 4,
     "preReq": ["ACSO"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 5,
@@ -230,7 +258,8 @@ export const sistemas = {
     "nemo": "TSOR",
     "credits": 3,
     "preReq": ["AYPR"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 6,
@@ -238,7 +267,8 @@ export const sistemas = {
     "nemo": "CVDS",
     "credits": 4,
     "preReq": ["MBDA", "POOB"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 5,
@@ -246,7 +276,8 @@ export const sistemas = {
     "nemo": "FUEC",
     "credits": 3,
     "preReq": ["CALD"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 7,
@@ -254,7 +285,8 @@ export const sistemas = {
     "nemo": "SPTI",
     "credits": 4,
     "preReq": ["RECO"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 6,
@@ -262,7 +294,8 @@ export const sistemas = {
     "nemo": "AUPN",
     "credits": 4,
     "preReq": ["TSOR", "POOB"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 7,
@@ -270,7 +303,8 @@ export const sistemas = {
     "nemo": "ARSW",
     "credits": 4,
     "preReq": ["RECO", "CVDS"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 7,
@@ -278,7 +312,8 @@ export const sistemas = {
     "nemo": "FCFI",
     "credits": 3,
     "preReq": ["FUEC"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 8,
@@ -286,7 +321,8 @@ export const sistemas = {
     "nemo": "AREP",
     "credits": 4,
     "preReq": ["RECO", "AUPN"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 7,
@@ -294,7 +330,8 @@ export const sistemas = {
     "nemo": "ELH2",
     "credits": 2,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 8,
@@ -302,7 +339,8 @@ export const sistemas = {
     "nemo": "FDGP",
     "credits": 3,
     "preReq": ["FCFI"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 8,
@@ -310,7 +348,8 @@ export const sistemas = {
     "nemo": "ET01",
     "credits": 3,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 8,
@@ -318,7 +357,8 @@ export const sistemas = {
     "nemo": "IETI",
     "credits": 4,
     "preReq": ["ARSW", "AUPN"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 9,
@@ -326,7 +366,8 @@ export const sistemas = {
     "nemo": "ET02",
     "credits": 3,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 8,
@@ -334,7 +375,8 @@ export const sistemas = {
     "nemo": "SIML",
     "credits": 1,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 9,
@@ -342,7 +384,8 @@ export const sistemas = {
     "nemo": "OGR1",
     "credits": 3,
     "preReq": ["SIML"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 4,
@@ -350,7 +393,8 @@ export const sistemas = {
     "nemo": "IDI1",
     "credits": 2,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 5,
@@ -358,7 +402,8 @@ export const sistemas = {
     "nemo": "IDI2",
     "credits": 2,
     "preReq": ["IDI1"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 6,
@@ -366,7 +411,8 @@ export const sistemas = {
     "nemo": "IDI3",
     "credits": 2,
     "preReq": ["IDI2"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 7,
@@ -374,7 +420,8 @@ export const sistemas = {
     "nemo": "IDI4",
     "credits": 2,
     "preReq": ["IDI3"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 1,
@@ -382,7 +429,8 @@ export const sistemas = {
     "nemo": "HGCL",
     "credits": 2,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 3,
@@ -390,7 +438,8 @@ export const sistemas = {
     "nemo": "CIPP",
     "credits": 2,
     "preReq": ["HGCL"],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 9,
@@ -398,7 +447,8 @@ export const sistemas = {
     "nemo": "ET03",
     "credits": 3,
     "preReq": [],
-    "pass":true,
+    "pass":false,
+    "state":0
   },
   {
     "x": 9,
@@ -407,6 +457,7 @@ export const sistemas = {
     "credits": 3,
     "preReq": ["SIML"],
     "pass":false,
+    "state":0
   }
   ]
 }
