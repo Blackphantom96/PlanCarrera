@@ -48,7 +48,8 @@ class App extends Component {
       courses : llenar(sistemas,false,null),
       mode:true,
       semest : [],
-      actualProgram: sistemas
+      actualProgram: sistemas,
+      
     }
     this.handleClick = this.handleClick.bind(this)
     this.handleClick2 = this.handleClick2.bind(this)
