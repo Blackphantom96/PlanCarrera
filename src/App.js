@@ -47,7 +47,8 @@ class App extends Component {
     this.state={
       courses : llenar(sistemas,false,null),
       mode:true,
-      semest : []
+      semest : [],
+      actualProgram: sistemas
     }
     this.handleClick = this.handleClick.bind(this)
     this.handleClick2 = this.handleClick2.bind(this)
@@ -55,14 +56,14 @@ class App extends Component {
     this.handleClick4 = this.handleClick4.bind(this)
   }
   handleClick(x,y){
-    let courseTemp = sistemas.courses.find(function(e) { return e.x===x && e.y===y;})
+    let courseTemp = this.state.actualProgram.courses.find(function(e) { return e.x===x && e.y===y;})
     if(this.state.mode){
       courseTemp.state = courseTemp.state===0 ? 1 : 0
     }else{
       courseTemp.state = courseTemp.state===0 ? 2 : 0
     }
     this.setState((state)=>{
-      return {courses:sistemas.courses}
+      return {courses:state.actualProgram.courses}
     })
   }
 
@@ -88,7 +89,7 @@ class App extends Component {
 
   handleClick4(e){
     this.setState((state)=>{
-      return {courses : llenar(e.value,false,null),mode:true,semest:[]}
+      return {courses : llenar(e.value,false,null),mode:true,semest:[],actualProgram:e.value}
     })
   }
   
