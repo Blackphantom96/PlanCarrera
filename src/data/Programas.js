@@ -461,3 +461,547 @@ export const sistemas = {
   }
   ]
 }
+export const industrial = {
+  "courses": [
+  {
+    "x": 0,
+    "y": 1,
+    "nemo": "AGEO",
+    "credits": 3,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "nemo": "PREM",
+    "credits": 3,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 0,
+    "y": 8,
+    "nemo": "FCO1",
+    "credits": 1,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 0,
+    "y": 2,
+    "nemo": "FUME",
+    "credits": 2,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "nemo": "CALD",
+    "credits": 3,
+    "preReq": ["PREM", "AGEO"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 2,
+    "nemo": "FCOP",
+    "credits": 2,
+    "preReq": ["FIME", "CALD"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 1,
+    "nemo": "ALLI",
+    "credits": 2,
+    "preReq": ["AGEO", "PREM"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 3,
+    "nemo": "QUIM",
+    "credits": 2,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 0,
+    "y": 6,
+    "nemo": "ELBA",
+    "credits": 0,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 0,
+    "y": 5,
+    "nemo": "ITII",
+    "credits": 0,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 8,
+    "nemo": "FCO2",
+    "credits": 1,
+    "preReq": ["FCO1"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "nemo": "CALI",
+    "credits": 3,
+    "preReq": ["CALD"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 3,
+    "nemo": "MATR",
+    "credits": 2,
+    "preReq": ["QUIM", "FIEM"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 2,
+    "nemo": "FIME",
+    "credits": 3,
+    "preReq": ["FUME"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 1,
+    "nemo": "AYPR",
+    "credits": 2,
+    "preReq": ["ALLI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 7,
+    "nemo": "EGR1",
+    "credits": 2,
+    "preReq": ["AGEO"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 5,
+    "nemo": "HYSE",
+    "credits": 1,
+    "preReq": ["ITII"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 2,
+    "nemo": "FIEM",
+    "credits": 3,
+    "preReq": ["FIME", "CALD"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 0,
+    "nemo": "CALV",
+    "credits": 3,
+    "preReq": ["ALLI", "CALI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 4,
+    "nemo": "ELEC",
+    "credits": 1,
+    "preReq": ["FIEM"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 3,
+    "nemo": "PROF",
+    "credits": 2,
+    "preReq": ["MATR"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 6,
+    "nemo": "ELH1",
+    "credits": 1,
+    "preReq": ["CIPP"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 5,
+    "nemo": "ERCT",
+    "credits": 2,
+    "preReq": ["HYSE"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 4,
+    "nemo": "TECE",
+    "credits": 1,
+    "preReq": ["ELEC", "FCOP"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 0,
+    "nemo": "ECDI",
+    "credits": 2,
+    "preReq": ["CALV"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 3,
+    "nemo": "GPRC",
+    "credits": 1,
+    "preReq": ["PROF"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 4,
+    "y": 1,
+    "nemo": "PRYE",
+    "credits": 3,
+    "preReq": ["CALI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 4,
+    "nemo": "GEDC",
+    "credits": 2,
+    "preReq": ["PROF", "FCFI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 2,
+    "nemo": "BIOL",
+    "credits": 2,
+    "preReq": ["AYPR"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 0,
+    "nemo": "ANUM",
+    "credits": 2,
+    "preReq": ["AYPR", "ECDI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 1,
+    "nemo": "MODM",
+    "credits": 3,
+    "preReq": ["AYPR", "PRYE"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 7,
+    "nemo": "FUEC",
+    "credits": 2,
+    "preReq": [""],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 7,
+    "nemo": "DPRT",
+    "credits": 2,
+    "preReq": ["PROF", "TECE", "EGR1"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 1,
+    "nemo": "OPDO",
+    "credits": 2,
+    "preReq": ["ANUM", "MODM"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 3,
+    "nemo": "PCOI",
+    "credits": 2,
+    "preReq": ["MODM", "GPRC", "ERCT"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 7,
+    "nemo": "FCFI",
+    "credits": 2,
+    "preReq": ["FUEC"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 4,
+    "nemo": "ETTR",
+    "credits": 2,
+    "preReq": ["GPRC", "ERCT", "DPRT"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 7,
+    "nemo": "ELH2",
+    "credits": 1,
+    "preReq": ["CIPP"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 7,
+    "nemo": "FDGP",
+    "credits": 2,
+    "preReq": ["FCFI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 0,
+    "nemo": "ET01",
+    "credits": 2,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 5,
+    "nemo": "CAPP",
+    "credits": 2,
+    "preReq": ["GPRC"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 1,
+    "nemo": "ET02",
+    "credits": 2,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 1,
+    "nemo": "MOES",
+    "credits": 2,
+    "preReq": ["MODM"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 9,
+    "y": 2,
+    "nemo": "OGR1",
+    "credits": 2,
+    "preReq": ["ELH1", "ELH2", "IDI4"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 2,
+    "y": 8,
+    "nemo": "IDI1",
+    "credits": 1,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 3,
+    "y": 8,
+    "nemo": "IDI2",
+    "credits": 1,
+    "preReq": ["IDI1"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 8,
+    "nemo": "IDI3",
+    "credits": 1,
+    "preReq": ["IDI2"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 6,
+    "y": 8,
+    "nemo": "IDI4",
+    "credits": 1,
+    "preReq": ["IDI3"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 1,
+    "y": 6,
+    "nemo": "HGCL",
+    "credits": 1,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 5,
+    "y": 6,
+    "nemo": "CIPP",
+    "credits": 1,
+    "preReq": ["HGCL"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 9,
+    "y": 1,
+    "nemo": "ET03",
+    "credits": 2,
+    "preReq": [],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 3,
+    "nemo": "GCAB",
+    "credits": 2,
+    "preReq": ["PCOI", "ETTR"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 5,
+    "nemo": "MAES",
+    "credits": 2,
+    "preReq": ["FCFI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 7,
+    "y": 8,
+    "nemo": "PEAD",
+    "credits": 2,
+    "preReq": ["FCFI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 2,
+    "nemo": "GCIV",
+    "credits": 2,
+    "preReq": ["DPRT", "BIOL"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 3,
+    "nemo": "DPIN",
+    "credits": 2,
+    "preReq": ["PCOI"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 4,
+    "nemo": "FICP",
+    "credits": 2,
+    "preReq": ["GEDC", "FUEC"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 8,
+    "y": 8,
+    "nemo": "GTAH",
+    "credits": 2,
+    "preReq": ["PEAD", "PRYE"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 9,
+    "y": 8,
+    "nemo": "NERC",
+    "credits": 2,
+    "preReq": ["MAES", "GTAH"],
+    "pass":false,
+    "state":0
+  },
+  {
+    "x": 9,
+    "y": 3,
+    "nemo": "OGR2",
+    "credits": 2,
+    "preReq": ["ELH1", "ELH2", "IDI4"],
+    "pass":false,
+    "state":0
+  }
+  ]
+}

@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import {CourseButton} from './CourseButton'
 
-import {sistemas} from './data/Programas'
+import {sistemas,industrial} from './data/Programas'
 import { Button } from 'primereact/button';
+import {Dropdown} from 'primereact/dropdown';
 
 import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -14,6 +15,7 @@ function copy(ob) {return JSON.parse(JSON.stringify(ob))}
 
 
 function llenar(ob,flag,fun) {
+  console.log(ob)
   let res=[]
   ob.courses.sort(function(a,b) {
     return a.x - b.x === 0 ? a.y - b.y : a.x - b.x;
@@ -38,6 +40,7 @@ function llenar(ob,flag,fun) {
   return res;
 }
 
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -49,6 +52,7 @@ class App extends Component {
     this.handleClick = this.handleClick.bind(this)
     this.handleClick2 = this.handleClick2.bind(this)
     this.handleClick3 = this.handleClick3.bind(this)
+    this.handleClick4 = this.handleClick4.bind(this)
   }
   handleClick(x,y){
     let courseTemp = sistemas.courses.find(function(e) { return e.x===x && e.y===y;})
@@ -82,7 +86,18 @@ class App extends Component {
     })}
   }
 
+  handleClick4(e){
+    this.setState((state)=>{
+      return {courses : llenar(e.value,false,null),mode:true,semest:[]}
+    })
+  }
+  
   render() {
+    const programs = [
+      {label: 'Sistemas', value:sistemas},
+      {label: 'Industrial', value:industrial}
+    ]
+
    var list = llenar(this.state,true,this.handleClick)
    let label =this.state.mode?"Modo agregar materias vistas":"Modo planear semestre";
    let labelCreds = 0
@@ -98,11 +113,16 @@ class App extends Component {
           <h3>1) Seleccionar las materias que aprobo</h3>
           <h3>2) Cambie el modo con el boton Modo </h3>
           <h3>3) Seleccione las materias que va a ver en los semestres, cuando termine pulse agregar</h3>
+          <div className="center">
+            <Dropdown style={{width:200}} value={this.state.courses} options={programs} onChange={this.handleClick4} placeholder="Seleccione un programa"/>
+          </div>
         </div>
+        
         <div className="container">
           <div className="container-items" >{list}</div>
           {!this.state.mode?<h1>{"Creditos: "+labelCreds}</h1>:""}
-          <div><Button label={label}  onClick={this.handleClick2}/></div>
+
+          <div><br/><Button label={label}  onClick={this.handleClick2}/></div>
           {!this.state.mode? <div><Button label="Agregar semestre" style={{marginTop:10}} onClick={this.handleClick3}/></div>:""}
           <div className="container-semest">
             {this.state.semest}
